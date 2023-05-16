@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider - emma watson</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="container max-w-screen-slider mx-auto mt-24">
+        <div class="bg-emerald-800 w-full rounded-md py-8 pl-20 pr-12 flex gap-20 relative">
+            <img src="images/emma.jpg" alt="" class="h-52 scale-150 rounded-md shadow-slider">
+            <blockquote class="flex flex-col justify-between">
+                <p class="text-lg font-medium text-[#e6fcf5]">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dicta ut reprehenderit aperiam quod earum, laborum natus est amet alias? Vero sapiente nihil et?
+                    Ipsa sequi suscipit repudiandae perspiciatis blanditiis? Esse!</p>
+                <div class="text-[#c3fae8]">
+                    <p class="text-sm">Emma watson</p>
+                    <p class="text-xs">Actress - Harry Potter Series</p>
+                </div>
+            </blockquote>
+
+            <button class="bg-white w-10 h-10 rounded-full flex items-center justify-center absolute left-0  top-1/2 -translate-y-[50%] -translate-x-[50%] shadow-slider">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 stroke-emerald-800">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+
+            <button class="bg-white w-10 h-10 rounded-full flex items-center justify-center absolute right-0  top-1/2 -translate-y-[50%] translate-x-[50%] shadow-slider">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 stroke-emerald-800  rotate-180">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+
+
+            <ul class="flex items-center gap-3 absolute -bottom-9 left-1/2  -translate-x-[50%]">
+                <li class="w-3 h-3 rounded-full border-2 border-emerald-800 bg-emerald-800"></li>
+                <li class="w-3 h-3 rounded-full border-2 border-emerald-800"></li>
+                <li class="w-3 h-3 rounded-full border-2 border-emerald-800"></li>
+                <li class="w-3 h-3 rounded-full border-2 border-emerald-800"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
